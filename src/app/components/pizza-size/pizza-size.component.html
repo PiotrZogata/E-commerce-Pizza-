@@ -1,0 +1,6 @@
+<!-- path have to be the same like in app.module -->
+
+<div class="list-group">
+  <a [routerLink]="'/pizzaSizeId/'+pizzaSize.id" *ngFor="let pizzaSize of pizzaSizes" class="list-group-item"
+    routerLinkActive="bg-primary text-white font-weight-bold">{{pizzaSize.sizeOfPizza}}</a>
+</div>

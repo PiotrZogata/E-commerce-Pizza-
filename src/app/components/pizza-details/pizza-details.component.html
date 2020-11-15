@@ -1,0 +1,17 @@
+<div class="detail-section">
+    <!-- <div class="container-fluid"> -->
+    <div>
+        <img src="{{pizza.imageUrl}}" height="400" width="350" class= "deatil-img>">
+        <h3> {{pizza.name}}</h3>
+
+        <div class="price">{{ pizza.unitPrice | currency: 'PL'}}</div>
+        <!-- <a href="#" class="primary-btn">Add to cart</a> -->
+        <button (click)="addToCart()" class="btn btn-primary btn-sm">Add to cart</button>
+
+        <hr>
+        <h4>Description</h4>
+        <p>{{pizza.description}}</p>
+
+        <a routerLink="/pizzas" class="mt-5">Back to Pizza List</a>
+    </div>
+</div>

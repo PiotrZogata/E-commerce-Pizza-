@@ -1,0 +1,12 @@
+/* .main-content.page-m{
+    padding: 10% 30% 10% 5%  top right bottom left
+} */
+
+.button{
+    font: inherit;
+    border: 1px solid #521751;
+    background: #521751;
+    color: white;
+padding: 5px 20px;
+cursor: pointer;
+}
